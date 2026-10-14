@@ -1,0 +1,19 @@
+variable,model,definition,known before kick-off because
+strength_diff,2.1,ln(rank_B) - ln(rank_A); FIFA ranking 11 Jun 2026,pre-tournament
+form_gd_diff,2.1,difference in shrunken goal-difference per game from earlier WC matches,earlier matches
+host_diff,2.1,host_home(A) - host_home(B),schedule
+rest_diff,2.1,rest days A - rest days B,schedule
+travel_diff_1000km,2.1,"km travelled since previous match, A - B (thousands)",schedule
+home_dist_diff_1000km,2.1,"capital-to-stadium distance, A - B (thousands of km)",geography
+wc_exp_diff,2.1,"previous World Cup appearances, A - B",pre-tournament
+elite_confed_diff,2.1,"UEFA/CONMEBOL indicator, A - B",pre-tournament
+goal_diff,2.1 target,"goals A - goals B incl. extra time, excl. shoot-out",outcome
+strength_gap,2.2,ln(rank_opp) - ln(rank_team),pre-tournament
+host_home,2.2,1 if co-host playing in its own country,schedule
+rest_days,2.2,days since team's previous match (matchday 1 = median),schedule
+home_dist_1000km,2.2,capital-to-stadium distance (thousands of km),geography
+gf_form,2.2,(goals scored so far + 1.34) / (games so far + 1),earlier matches
+opp_ga_form,2.2,opponent's (goals conceded so far + 1.34) / (games so far + 1),earlier matches
+altitude_km,2.2,stadium altitude (km above sea level),venue
+knockout,2.2,1 if Round of 32 or later,schedule
+goals,2.2 target,goals scored by the team incl. extra time,outcome
